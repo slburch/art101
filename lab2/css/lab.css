@@ -1,4 +1,51 @@
 /* Here we can set styles for this lab page that we don't want to effect others pages */
+h1, h2 {
+  color: #7f7f7f;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 300%;
+}
+
+h3 {
+  color: #a4a4a4;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-size: 200%;
+  padding: 20px;
+}
+
+p {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-indent: 40px;
+}
+
+#content {
+  background-color: bisque;
+  width: auto;
+  padding: 10px;
+  border: solid 3px #7f7f7f;
+}
+
+.head {
+  background-color: antiquewhite;
+  margin-bottom: 10px;
+  border: solid 4px #7f7f7f;
+  border-style: dotted;
+  border-radius: 8px;
+
+}
+
+.section1 {
+  text-align: center;
+}
+
+.section2 {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  font-weight: bold;
+  border-top-style: double;
+  border-bottom-style: double;
+  text-align: center;
+}
+
+
 
 /* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
 .minor-section {
