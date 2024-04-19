@@ -1,47 +1,64 @@
-/* we can use a single css file to style all the files in our wwebsite */
-
-/* you can pick your own background colors, text colors, and fonts */
-
-/* we can select an html element tag, in this case "body" will apply to the whole document */
-.text-center {
-  text-align: center;
-}
-
-body {
-  background-color: #50808E;
-  color: #666666;
-}
-
-/* we can have rules apply to multiple elements at the same time with commas */
-h1,h2,h3,body {
-  font-family: 'Montserrat', sans-serif;
-}
-
-/* and we can have rules that overlap other rules, both take effect */
-h1 {
-  letter-spacing: 5px;
-  word-spacing: 5px;
-  font-size: 200%;
-  color: black;
-}
-
-/* the hashtag in a CSS selector selects an element by id, e.g., id="content" */
+html {
+    text-align: center;
+  }
+  
 #content {
-  margin: 10px;
-  padding: 10px;
-  border: solid 1px #888;
-  background-color: #84B59F;
-}
-
-/* the period in a CSS selector selects an element by class, e.g., class="minor-section" */
-.minor-section {
-  padding: 10px;
-  margin-bottom: 10px;
-  border: solid 1px #888;
-  background-color: #A3C9A8;
-}
-
-.rule-break {
-  border-top: 1px solid #000; 
-  margin: 20px 0;
-}
+    padding: 10px;
+    border-radius: 12px;
+    background-color: #F5F1ED;
+    background:url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' height='100%25' width='100%25'%3E%3Cdefs%3E%3Cpattern id='doodad' width='51.96' height='60' viewBox='0 0 69.2820323027551 80' patternUnits='userSpaceOnUse' patternTransform='rotate(163)'%3E%3Crect width='100%25' height='100%25' fill='rgba(204, 197, 185,1)'/%3E%3Cpath d='M60.62 55L58.89 56L57.16 55L57.16 53L58.89 52L60.62 53z' stroke-linejoin='miter' fill='rgba(64, 61, 57,1)'/%3E%3Cpath d='M36.37 69L34.64 70L32.91 69L32.91 67L34.64 66L36.37 67z' stroke-linejoin='miter' fill='rgba(64, 61, 57,1)'/%3E%3Cpath d='M12.12 55L10.39 56L8.66 55L8.66 53L10.39 52L12.12 53z' stroke-linejoin='miter' fill='rgba(64, 61, 57,1)'/%3E%3Cpath d='M12.12 27L10.39 28L8.66 27L8.66 25L10.39 24L12.12 25z' stroke-linejoin='miter' fill='rgba(64, 61, 57,1)'/%3E%3Cpath d='M36.37 13L34.64 14L32.91 13L32.91 11L34.64 10L36.37 11z' stroke-linejoin='miter' fill='rgba(64, 61, 57,1)'/%3E%3Cpath d='M60.62 27L58.89 28L57.16 27L57.16 25L58.89 24L60.62 25z' stroke-linejoin='miter' fill='rgba(64, 61, 57,1)'/%3E%3Cpath d='M38.11 42L34.64 44L31.18 42L31.18 38L34.64 36L38.11 38z' stroke-linejoin='miter' fill='rgba(45, 147, 108,1)'/%3E%3C/pattern%3E%3C/defs%3E%3Crect fill='url(%23doodad)' height='200%25' width='200%25'/%3E%3C/svg%3E ");
+  }
+  
+.center {
+    width: 50%;
+    margin: auto;
+  }
+  
+h1 {
+    margin: auto;
+    padding: 10px;
+    border: 5px dotted #252422;
+    border-radius: 6px;
+    width: 50%;
+    letter-spacing: 2px;
+    font-size: 200%;
+    color: #ccc5b9;
+    background-color: #2d936c;
+  }
+  
+h2 {
+    letter-spacing: 2px;
+    color: #403d39;
+  }
+  
+.minor-section, .second-section {
+    margin: auto;
+    padding: 10px;
+   /* border: solid 4px #403d39;
+    border-radius: 6px;
+    background-color: #ccc5b9;*/
+    width: fit-content;
+    color: #252422;
+    font-size: 110%;
+    letter-spacing: 1px; 
+  }
+  
+a:visited {
+    color: #62AE8E;
+  }
+  
+a:hover {
+    color:#fffcf2;
+  }
+  
+li {
+    width: fit-content;
+    margin: auto;
+    margin-bottom: 3px;
+    border: 2px solid;
+    border-color:#403d39;
+    border-radius: 12px; 
+    padding: 5px;
+    background-color: #403d39;
+    color: #ccc5b9;
+  }
