@@ -1,21 +1,20 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - Pseudocoding a Simple Game
+// Author: Savvy Burch
+// Date: Apr. 23, 2024
 
-// Constants
+//Code's intention is to simulate a game of rock-paper-scissors using user input and computer randomization.
 
-// Functions
+//Create clean game slate
+//Verify rules
+  //rock < paper < scissors <
+//Randomize computer input from three options:
+  //rock
+  //paper
+  //scissors
+//Accept user input from three options:
+  //rock
+  //paper
+  //scissors
+//Compare user input to computer input
+//Confirm winner based on pre-established rules
 
-// this is an example function and this comment tells what it doees and what parameters are passed to it.
-function myFunction(param1, param2) {
-  // some code here
-  // return results;
-}
-
-function main() {
-  console.log("Main function started.");
-  // the code that makes everything happen
-}
-
-// let's get this party started
-main();
