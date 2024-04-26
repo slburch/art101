@@ -1,6 +1,6 @@
-// index.js - purpose and description here
-// Author: Your Name
-// Date:
+// index.js - learning javascript
+// Author: Savvy Burch
+// Date: 04/25/2024
 
 // Constants
 
