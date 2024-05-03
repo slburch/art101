@@ -9,24 +9,24 @@
 // takes a name and sorts the letters 
 function sortUser() {
   //prompts for name
-    var userName = window.prompt("Tell me your name.");
-    console.log("userName is : " + userName );
+    var userName = window.prompt("Hi! What's your name?");
+    console.log("userName is : ", userName );
   //splits name into array  
     var nameArray = userName.split('');
-    console.log("nameArray is : " + nameArray)
+    console.log("nameArray is : ", nameArray)
   //sorts array  
     var nameArraySort = nameArray.sort();
-    console.log("nameArraySort :" + nameArraySort);
+    console.log("nameArraySort :", nameArraySort);
   //rejoins array into string  
     var joinName = nameArraySort.join('');
-    console.log("joinName : " + joinName);
+    console.log("joinName : ", joinName);
   //returns new sorted name  
     return joinName;
   }
   
   //output
-  document.writeln("Hi! What's your name? ",
-    sortUser(), " Nice name!", "</br>");
+  document.writeln("<br/>", " Nice name! But here's a better one: ",
+    sortUser(), "<br/>");
 
 
 //  function main() {
