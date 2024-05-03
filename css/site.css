@@ -31,17 +31,27 @@ h2 {
     color: #403d39;
   }
   
-.minor-section, .second-section {
+.minor-section {
     margin: auto;
     padding: 10px;
-   /* border: solid 4px #403d39;
-    border-radius: 6px;
-    background-color: #ccc5b9;*/
     width: fit-content;
+    background-color: #ccc5b9;    
     color: #252422;
     font-size: 110%;
     letter-spacing: 1px; 
   }
+
+.second-section {
+    width: 50%;
+    margin: auto;
+    padding: 10px;
+    background-color: #ccc5b9;
+    width: fit-content;
+    color: #2d936c;
+    font-size: 115%;
+    font-weight: bold;
+    letter-spacing: 1px;  
+  } 
   
 a:visited {
     color: #62AE8E;
