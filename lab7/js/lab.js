@@ -9,7 +9,7 @@
 // takes a name and sorts the letters 
 function sortUser() {
   //prompts for name
-    var userName = window.prompt("Hi! What's your name?");
+    var userName = window.prompt("Hi! What's your name? Ignore the second pop-up, it's evil.");
     console.log("userName is : ", userName );
   //splits name into array  
     var nameArray = userName.split('');
