@@ -31,7 +31,7 @@ h2 {
     color: #403d39;
   }
   
-.minor-section {
+/*.minor-section {
     margin: auto;
     padding: 10px;
     width: fit-content;
@@ -39,7 +39,7 @@ h2 {
     color: #252422;
     font-size: 110%;
     letter-spacing: 1px; 
-  }
+  } */
 
 .second-section {
     width: 50%;
