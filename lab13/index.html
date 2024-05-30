@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<!-- This title is used for tabs and bookmarks -->
+	<title>lab 13</title>
+
+	<!-- Use UTF character set, a good idea with any webpage -->
+  	<meta charset="UTF-8" />
+	<!-- Set viewport so page remains consistently scaled w narrow devices -->
+  	<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+	
+	<!-- Include a sitewide CSS file for consistent styling across the site -->
+	<link rel="stylesheet" type="text/css" href="../css/site.css">
+	<!-- Lab-specifc CSS file for any special styling of this particular page -->
+	<link rel="stylesheet" type="text/css" href="css/lab13.css">
+	
+	<!-- load jQuery library to make javascript easier (must be above our lab js)-->
+	<script src="https://code.jquery.com/jquery-3.6.4.min.js"></script>
+	<!-- Link to javascript file - DEFER waits until all elements are rendered -->
+	<script type="text/javascript" src="./js/lab13.js" DEFER></script>
+</head>
+<body>
+	<!-- Style this page by changing the CSS in ../css/site.css or css/lab.css -->
+	<div class = "center">
+		<main id="content">
+			<section>
+				<h1>lab 13: loops</h1>
+                <div id = "body">
+                    <div class="minor-section" id = "challenge">
+                            <h2>challenge</h2>
+                            <p>this challenge tasked us to work through loops for the coding challenge 'fizzbuzz'</p>
+                    </div>
+
+                    <div class="minor-section" id = "problems">
+                            <h2>problems</h2>
+                            <p>i had a lot of trouble with this project as the number of variables got very out of hand to me.</p>
+                    </div>
+
+                    <div class="minor-section" id = "reflection">
+                            <h2>reflection</h2>
+                            <p>i got a lot of help from my lab partner brooke (thank you so much!) and chatgpt. i hope i dont need to rely on chatgpt again.</p>
+                    </div>
+                </div>    
+                    <div class="second-section">
+						<h2>FizzBuzz!</h2>
+								<label for = "number-input">enter a number...</label>
+								<input type = "number" id="number-input">
+								<br>
+								<label for = "text-input">enter an onomatopoeia...</label> 
+								<input type = "text" id = "text-input">
+								<br>
+									<button type= "button" id = "submit">submit</button>
+                                <div id = "output">
+                                
+                                </div>
+							</div>			
+                    </div>    
+			</section>
+			<nav id="links">
+				<!-- Put links to other pages (including the homepage) here. -->
+				<a href="../index.html">homepage</a>
+			</nav>
+		</main>
+	</div>
+</body>
+</html>
