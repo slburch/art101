@@ -41,6 +41,18 @@ h2 {
     letter-spacing: 1px; 
   } */
 
+  .bordered-paragraph {
+    padding: 20px;
+    box-sizing: border-box;
+}
+
+.bordered-content img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 20px 0;
+}
+
 .second-section {
     width: 50%;
     margin: auto;
